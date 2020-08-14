@@ -1,0 +1,48 @@
+var email = document.getElementByName("mail"); 
+      	alert(email
+)      if (arguments.length == 1 && arguments[0] == 1)
+      {              
+      var email = document.Formfeed.mail.value;
+      	alert(email)
+
+         atpos = email.indexOf("@");
+         dotpos = email.lastIndexOf(".");
+         
+         if (atpos < 1 || ( dotpos - atpos < 2 )) {
+            alert("Please enter correct email ID")
+            document.Formfeed.mail.focus() ;
+            return false;
+         }
+         else{
+         	alert("validate")
+         }
+         return( true );
+      }
+      else if(arguments.length == 1 && arguments[0] == 2) {
+       
+       var name = document.FormIn.inform-nme.value;
+       var phone = document.FormIn.inform-phn.value;  
+       var address = document.FormIn.inform-add.value; 
+       var email = document.FormIn.inform-mail.value; 
+      	
+          atpos = email.indexOf("@");
+          dotpos = email.lastIndexOf(".");
+         
+         if (atpos < 1 || ( dotpos - atpos < 2 )) {
+            alert("Please enter correct email ID")
+            document.Formfeed.inform=mail.focus() ;
+            return false;
+         }
+
+         else if(phone.length > 10 || phone.length < 10){
+            alert("Please enter valid Phone No")
+            document.Formfeed.inform-phn.focus() ;
+            return false;
+         }
+         else{
+         	alert("validate")
+         }
+         
+         return( true );
+
+      }

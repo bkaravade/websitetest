@@ -1,0 +1,72 @@
+body {
+    position: relative; 
+  }
+@media screen and (max-width: 600px) {
+  .column,.column-r, .column-l, input[type=submit], input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+input[type=text], select, textarea,[type=email]  {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  /*resize: vertical;*/
+}
+input[type=submit],[type=reset]  {
+  width: 25%;
+  padding: 10px;
+  /*border: 1px solid #ccc;*/
+  margin-top: 6px;
+  margin-bottom: 16px;
+ /* resize: vertical;*/
+}
+label {
+  float: left;
+  margin-bottom: 6px;
+  /*color: #fff;*/
+}
+footer {
+	padding: 10px 20px;
+        background: #111212;
+        color: white;
+}
+
+.middle {
+  width: 80%;
+}
+
+  #section1 {
+  	padding-top:50px;
+  	height:300px;
+  	color: #fff;
+  	background-color: #ff4302;
+  }
+  #section2 {
+  	padding-top:50px;
+  	height:400px;
+  	color: #fff;
+  	background-color: #ff4302;
+  }
+  #section3 {
+  	padding-top:50px;
+  	height:400px;
+  	color: #fff;
+  	background-color: #fc8c65;
+  }
+  #section4 {
+  	padding-top:50px;
+  	height:750px;
+  	color: #111212;
+  	background-color: #fff;
+  }
+  #section5 {
+  	padding-top:50px;
+  	height:650px;
+  	color: #111212;
+  	background-color: #fff;
+  }
+  
